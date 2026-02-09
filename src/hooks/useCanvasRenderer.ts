@@ -10,7 +10,9 @@ export function useCanvasRenderer(
 ) {
   const ctxRef = useRef<CanvasRenderingContext2D | null>(null);
   const onResizeRef = useRef(onResize);
-  onResizeRef.current = onResize;
+  useEffect(() => {
+    onResizeRef.current = onResize;
+  });
 
   // Initialize canvas context
   useEffect(() => {
