@@ -61,7 +61,7 @@ export function Sidebar({
       <hr className="sidebar-divider" />
 
       <div className="sidebar-section">
-        <h3>Parametres</h3>
+        <h3>Settings</h3>
         <SpeedSlider speed={speed} onChange={onSpeedChange} />
         <CellSizeSlider cellSize={cellSize} onChange={onCellSizeChange} />
       </div>

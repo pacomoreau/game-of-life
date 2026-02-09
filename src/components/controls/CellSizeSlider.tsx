@@ -7,7 +7,7 @@ export function CellSizeSlider({ cellSize, onChange }: Props) {
   return (
     <div className="slider-control">
       <div className="slider-label">
-        <span>Taille des cellules</span>
+        <span>Cell size</span>
         <span className="slider-value">{cellSize}px</span>
       </div>
       <input

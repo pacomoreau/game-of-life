@@ -7,7 +7,7 @@ export function SpeedSlider({ speed, onChange }: Props) {
   return (
     <div className="slider-control">
       <div className="slider-label">
-        <span>Vitesse</span>
+        <span>Speed</span>
         <span className="slider-value">{speed} gen/s</span>
       </div>
       <input

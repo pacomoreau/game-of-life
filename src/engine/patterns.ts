@@ -3,12 +3,12 @@ import type { Pattern } from '../types/game';
 export const PATTERNS: Pattern[] = [
   {
     name: 'Glider',
-    description: 'Plus petit vaisseau, se deplace en diagonale',
+    description: 'Smallest spaceship, moves diagonally',
     cells: [[0, 1], [1, 2], [2, 0], [2, 1], [2, 2]],
   },
   {
     name: 'LWSS',
-    description: 'Lightweight Spaceship, se deplace horizontalement',
+    description: 'Lightweight Spaceship, moves horizontally',
     cells: [
       [0, 1], [0, 4],
       [1, 0],
@@ -18,7 +18,7 @@ export const PATTERNS: Pattern[] = [
   },
   {
     name: 'Pulsar',
-    description: 'Oscillateur de periode 3',
+    description: 'Period-3 oscillator',
     cells: [
       [0, 2], [0, 3], [0, 4], [0, 8], [0, 9], [0, 10],
       [2, 0], [2, 5], [2, 7], [2, 12],
@@ -34,7 +34,7 @@ export const PATTERNS: Pattern[] = [
   },
   {
     name: 'Gosper Glider Gun',
-    description: 'Premier canon decouvert, emet un glider toutes les 30 generations',
+    description: 'First discovered gun, emits a glider every 30 generations',
     cells: [
       [0, 24],
       [1, 22], [1, 24],
@@ -49,32 +49,32 @@ export const PATTERNS: Pattern[] = [
   },
   {
     name: 'R-Pentomino',
-    description: 'Methuselah - evolue pendant 1103 generations avant de se stabiliser',
+    description: 'Methuselah - evolves for 1103 generations before stabilizing',
     cells: [[0, 1], [0, 2], [1, 0], [1, 1], [2, 1]],
   },
   {
     name: 'Diehard',
-    description: 'Disparait completement apres 130 generations',
+    description: 'Disappears completely after 130 generations',
     cells: [[0, 6], [1, 0], [1, 1], [2, 1], [2, 5], [2, 6], [2, 7]],
   },
   {
     name: 'Acorn',
-    description: 'Methuselah - genere 633 cellules apres 5206 generations',
+    description: 'Methuselah - generates 633 cells after 5206 generations',
     cells: [[0, 1], [1, 3], [2, 0], [2, 1], [2, 4], [2, 5], [2, 6]],
   },
   {
     name: 'Beacon',
-    description: 'Oscillateur de periode 2',
+    description: 'Period-2 oscillator',
     cells: [[0, 0], [0, 1], [1, 0], [2, 3], [3, 2], [3, 3]],
   },
   {
     name: 'Toad',
-    description: 'Oscillateur de periode 2',
+    description: 'Period-2 oscillator',
     cells: [[0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2]],
   },
   {
     name: 'Pentadecathlon',
-    description: 'Oscillateur de periode 15',
+    description: 'Period-15 oscillator',
     cells: [
       [0, 1],
       [1, 1],

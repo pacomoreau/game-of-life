@@ -19,7 +19,7 @@ export function PatternSelector({ disabled, onSelect }: Props) {
       }}
     >
       <option value="" disabled>
-        Placer un pattern...
+        Place a pattern...
       </option>
       {PATTERNS.map((p, i) => (
         <option key={p.name} value={i} title={p.description}>
